@@ -1,0 +1,11 @@
+USE test;
+
+-- ADD FOREIGN KEY
+ALTER TABLE people
+ADD CONSTRAINT FK_PeopleAddress
+FOREIGN KEY (address_id)
+REFERENCES addresses(id);
+
+-- DROP FOREIGN KEY
+ALTER TABLE people
+DROP FOREIGN KEY FK_PeopleAddress
