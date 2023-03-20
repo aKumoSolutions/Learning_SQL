@@ -54,3 +54,6 @@ VALUES ('Chris','Martin','M','01123147789'),('Emma','Law','F','01123439899'),
 ('George','Evans','M','01174502933'),('Emily','Simmonds','F','01899284352'),
 ('John','Smith','M','01144473330'),('Jennifer',NULL,'F',NULL),
 ('Toby','West','M','01176009822'),('Paul','Edmonds','M','01966947113');
+
+
+SELECT * FROM test;
