@@ -27,3 +27,6 @@ if connection:
         cursor.execute("SELECT first_name, phone_number FROM customers")
         name = cursor.fetchall()
         print(name)
+        
+
+    connection.close()

@@ -25,4 +25,6 @@ if connection:
         cursor.execute("SELECT * FROM products WHERE price = 3.00 OR coffee_origin = 'Colombia';")
         sort3 = cursor.fetchall()
         print(sort3)
+    
+    connection.close()
 
