@@ -4,7 +4,7 @@ try:
     connection = pymysql.connect(
         host='localhost',
         user='burkanov-e',
-        password='T821981f',
+        password='passwd',
         db='coffee_store',
         autocommit=True
     )
